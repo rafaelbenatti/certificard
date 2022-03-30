@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   background: linear-gradient(
     115deg,
@@ -57,12 +59,7 @@ body {
 .projetos {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    115deg,
-    rgba(224, 172, 138, 1) 13%,
-    rgba(244, 157, 89, 1) 56%,
-    rgba(235, 131, 51, 1) 100%
-  );
+  background: linear-gradient(115deg, rgba(61,34,19,0.9895308465182948) 18%, rgba(211,138,63,1) 58%, rgba(235,131,51,1) 100%);
   margin-top: 32px;
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -98,6 +95,7 @@ body {
 
 .dark .projetos {
   color: #1c1c1c;
+  background: linear-gradient(115deg, rgba(31,27,24,0.9783263647255778) 13%, rgba(55,91,134,1) 69%);
 }
 
 .dark .tema button {
