@@ -2,9 +2,9 @@
 
 body {
   background: linear-gradient(
-    115deg,
-    rgba(216, 124, 91, 1) 9%,
-    rgba(229, 172, 91, 1) 100%
+          115deg,
+          rgba(216, 124, 91, 1) 9%,
+          rgba(229, 172, 91, 1) 100%
   );
   font-family: "Roboto", sans-serif;
 }
@@ -52,14 +52,19 @@ body {
   font-size: 24px;
   font-weight: 400;
   padding: 8px 16px;
-  background: #ecf4ff;
+  backgroung: #ecf4ff;
   border-radius: 100px;
 }
 
 .projetos {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(115deg, rgba(61,34,19,0.9895308465182948) 18%, rgba(211,138,63,1) 58%, rgba(235,131,51,1) 100%);
+  background: linear-gradient(
+          115deg,
+          rgba(224, 172, 138, 1) 13%,
+          rgba(244, 157, 89, 1) 56%,
+          rgba(235, 131, 51, 1) 100%
+  );
   margin-top: 32px;
   padding: 32px;
   box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -94,8 +99,8 @@ body {
 }
 
 .dark .projetos {
-  color: #1c1c1c;
-  background: linear-gradient(115deg, rgba(31,27,24,0.9783263647255778) 13%, rgba(55,91,134,1) 69%);
+  color: #e1dddd;
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
 }
 
 .dark .tema button {
